@@ -1,0 +1,129 @@
+.app {
+  width: 400px;
+  max-width: 90%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.success {
+  background-color: rgb(166, 245, 166);
+  border-radius: 5px;
+  width: 400px;
+  padding: 10px 0;
+  margin-bottom: 25px;
+  width: 80%;
+}
+
+.success p {
+  color: green;
+  font-weight: 700;
+  font-size: 18px;
+  margin: 0;
+  text-align: center;
+}
+
+.error {
+  background-color: rgb(245, 166, 166);
+  border-radius: 5px;
+  width: 400px;
+  padding: 10px 0;
+  margin-bottom: 25px;
+  width: 80%;
+}
+
+.error p {
+  color: red;
+  font-weight: 700;
+  font-size: 18px;
+  margin: 0;
+  text-align: center;
+}
+
+.btn {
+  padding: 5px 15px;
+  font-weight: 700;
+  font-size: 18px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn-delete {
+  background-color: #DC143C;
+  color: #ffffff;
+  border: none;
+  text-transform: uppercase;
+  padding: 7px 15px;
+}
+
+.btn-submit {
+  background-color: #6495ED;
+  color: #ffffff;
+  border: none;
+  text-transform: uppercase;
+  padding: 10px 20px;
+  margin-top: 15px;
+}
+
+.person-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+  border-bottom: 1px solid lightgray;
+}
+
+.person-item:last-of-type {
+  border: none;
+}
+
+label {
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+div > label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.input-field {
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  box-sizing: border-box;
+  height: 35px;
+  padding: 8px;
+  margin-bottom: 10px;
+  font-size: 16px;
+  width: 100%;
+}
+
+.input-field:focus {
+  outline: none;
+  box-shadow: 0px 0px 5px lightgray;
+}
+
+.search-field {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 350px;
+  box-sizing: border-box;
+}
+
+.search-field .input-field {
+  width: 65%;
+}
+
+.contacts-list {
+  margin-bottom: 70px;
+}
+
+.contacts-list, .form {
+  width: 100%;
+}
+
+.info-number {
+  font-weight: 700;
+}
