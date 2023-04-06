@@ -25,3 +25,5 @@ yarn-error.log*
 
 ./server/.eslintignore
 ./server/.eslintrc.js
+./server/mongo.js
+./server/fly.toml

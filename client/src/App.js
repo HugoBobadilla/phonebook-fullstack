@@ -89,7 +89,7 @@ function App() {
             }, 5000)
           })
           .catch(error => {
-            console.log(error.response.data)
+           
             setNotificacionMsg('Name is required and must be at least 3 characters.')
             setIsError(true)
             setTimeout(() => {
